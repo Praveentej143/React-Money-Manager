@@ -1,0 +1,122 @@
+/* Write your CSS here */
+.bg-container {
+  padding: 40px;
+}
+.card-container {
+  width: 60%;
+  margin: 0% auto;
+}
+.welcome-card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 80%; */
+  padding: 30px 30px 20px 30px;
+  font-family: 'Roboto';
+  border-radius: 16px;
+}
+.welcome-card-heading {
+  color: #475569;
+}
+.welcome-card-desc {
+  color: #475569;
+}
+.money-tag {
+  color: #0b69ff;
+  font-weight: 500;
+}
+
+/* TRANSACTION-CARD-SECTION */
+.transaction-main-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.transaction-container {
+  border: 1px solid #cbd5e1;
+  width: 40%;
+  border-radius: 14px;
+  padding: 40px;
+  margin: 0px 10px;
+}
+.trans-card-heading {
+  color: #1e293b;
+  font-size: 18px;
+}
+.trans-title {
+  color: #7e858e;
+  font-weight: 500;
+  font-size: 14px;
+}
+.title-input {
+  padding: 8px;
+  border: 1px solid #d7dfe9;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+.amount-type {
+  color: #7e858e;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.amount-input {
+  padding: 8px;
+  border: 1px solid #d7dfe9;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+.select-type-amount {
+  padding: 8px;
+  border: 1px solid #d7dfe9;
+  margin-top: 10px;
+  outline: none;
+  width: 100%;
+}
+.add-transaction-btn {
+  background-color: #0b69ff;
+  border-radius: 6px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  padding: 10px 16px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+/* History Transaction  */
+.history-main-container {
+  width: 55%;
+  margin: 0px 10px;
+}
+.history-container {
+  border-radius: 14px;
+  border: 1px solid #d7dfe9;
+  padding: 20px;
+}
+.history-transaction-heading {
+  color: #334155;
+  font-weight: bold;
+}
+.transactions-table {
+  padding: 0%;
+}
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  width: 100%;
+}
+.table-header-cell {
+  color: #334155;
+  font-weight: bold;
+  /* border: 1px solid red; */
+  /* margin-right: 20px; */
+  flex-basis: 50px;
+  margin-left: 10px;
+}
+.cell {
+  margin-left: 20px;
+}

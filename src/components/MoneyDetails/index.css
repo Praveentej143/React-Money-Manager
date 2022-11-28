@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.main-container {
+  padding: 25px 0px;
+}
+.money-details-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance-amount-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecfccb;
+  color: #475569;
+  border: 1px solid #84cc16;
+  flex-basis: 240px;
+  border-radius: 15px;
+  padding: 10px 10px;
+}
+.balance-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.bal-desc {
+  font-size: 14px;
+  font-weight: 400;
+}
+.bal-amount {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.income-amount-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cffafe;
+  color: #475569;
+  border: 1px solid #06b6d4;
+  flex-basis: 300px;
+  border-radius: 15px;
+  padding: 10px 10px;
+  flex-basis: 240px;
+}
+.income-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.expenses-amount-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ede9fe;
+  color: #475569;
+  border: 1px solid #7c3aed;
+  flex-basis: 300px;
+  border-radius: 15px;
+  padding: 10px 10px;
+  flex-basis: 240px;
+}
+.expenses-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
